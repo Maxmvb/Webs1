@@ -27,13 +27,29 @@ header .homebutton{
 
 }
 
-.menu ul{
-    display: flex;
+header nav{
+
 }
 
-.menu a{
-    border: 1px solid white;
+
+
+
+nav ul{
+    display: flex;
+    list-style: none;
+    padding: 0px;
+}
+
+nav a{
     padding: 5px;
+    margin: 5px;
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover{
+    background-color: white;
+    color: #07173b;
 }
 
 
