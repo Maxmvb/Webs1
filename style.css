@@ -14,16 +14,27 @@ container{
     margin-right:auto;
 }
 
-
 header{
     background-color: #07173b;
+    color:white;
     display: flex;
+}
+
+header .homebutton{
+    height: 165px;
+    position: relative;
+    top: 33px;
 
 }
 
+.menu ul{
+    display: flex;
+}
 
-
-
+.menu a{
+    border: 1px solid white;
+    padding: 5px;
+}
 
 
 
