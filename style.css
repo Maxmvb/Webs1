@@ -17,82 +17,13 @@ container{
 
 header{
     background-color: #07173b;
-    height: 165px;
     display: flex;
-    justify-content: flex-start;
-    width: 100%;
+
 }
 
 
 
 
-header .titel{
-    text-align: center;
-    color: white;
-}
-
-
-
-.homebutton{
-    width: 150px;
-    height: 160px;
-    overflow: hidden;
-    display: inline-block;
-    margin-top: -2px;
-    margin-bottom: -20px;
-    float: left;
-}
-
-header .menu{
-    background-color: #07173b;
-    color: white;
-    display: flex;
-    flex-direction: row;
-    padding: 20px;
-    font-family: hf;
-    height: 60px;
-}
-
-
-.menu ul {
-    list-style: none;
-    text-align: center;
-    padding: 0;
-    margin: 0;
-    display: inline-block;
-    width: 100%;
-  }
-  .menu li {
-    line-height: 40px;
-    
-    width: 15%;
-    float: right;
-    display: inline;
-   
-  }
-   
-  .menu a {
-    text-decoration: none;
-    color: #fff;
-    display: inline-block;
-    
-    transition: .3s background-color;
-  }
-    .menu li :hover{
-       background-color: #FFFFFF;
-       color: #07173b;
-       display: block;
-    }
-
-.menu selected{
-font-weight: bold;    
-}
-    
-li a{
-    color: white;
-    display : inline;
-    width: 60px;
-}
 
 
 
