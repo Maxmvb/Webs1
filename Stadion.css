@@ -1,19 +1,39 @@
 
 
-stadionteststukje
+
 
 .gallerystyle .blur{
     background-color: #999999
-    height: 300px;
-    width: 400px;
+    height: 100%;
+    width: 100%;
     z-index: 5;
     position: absolute;
+}
+
+.gallerystyle img{
+    width: 100%;
+    display: block;
+    transition: transform 1s;
+}
+
+.gallerystyle li{
+    position: relative;
+    overflow: hidden;
 }
 
 .gallerystyle .stadion{
     cursor: pointer;
     position: absolute;
     opacity: 0;
+    top: 0;
+    left: 0;   
+    background-color: rgba(0,0,0,0.4);
+    text-align: center;
+    padding: 20px;
+    color: white;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
     -webkit-transition: all 0.45s ease-in-out;
     -moz-transition: all 0.45s ease-in-out;
     -o-transition: all 0.45s ease-in-out;
@@ -25,6 +45,18 @@ stadionteststukje
     list-style: none;
     margin: 0px;
     padding: 0px;
+    width: 700px;
+    
+}
+
+.gallerystyle li:hover .stadion{
+    opacity: 1;
+    
+}
+
+.gallerystyle li:hover img{
+    transform: scale(1.2);
+   
 }
 
 
