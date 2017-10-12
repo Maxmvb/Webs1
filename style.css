@@ -18,17 +18,24 @@ header{
     background-color: #07173b;
     color:white;
     display: flex;
+    align-items: flex-end;
 }
 
 header .homebutton{
+    display: flex;
     height: 165px;
     position: relative;
     top: 33px;
 
 }
 
-header nav{
+header .titel{
+    
+    
+}
 
+header .nav{
+    display: flex;
 }
 
 
@@ -38,12 +45,14 @@ nav ul{
     display: flex;
     list-style: none;
     padding: 0px;
+    width: 30px;
+    
 }
 
 nav a{
     padding: 5px;
     margin: 5px;
-    color: white;
+    color: #FFFFFF;
     text-decoration: none;
 }
 
@@ -57,10 +66,39 @@ nav a:hover{
 
 
 
+.content{
+
+}
 
 
+.content h2{
+    text-align: center;
+    text-decoration: underline;
 
+}
 
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+.gallery img{
+    display: inline-block;
+    max-width: 25%;
+    max-height: 250px;
+    margin: 5px;
+    border: 1px solid #07163B;
+    
+}
+
+.gallery img:hover{
+    border: 2px solid #07163B
+    -moz-transform: scale(1.3);
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+}
+
+}
 
    
 
@@ -84,6 +122,32 @@ main{
 
 }
 
+stadionteststukje
+
+.gallerystyle .blur{
+    background-color: #999999
+    height: 300px;
+    width: 400px;
+    z-index: 5;
+    position: absolute;
+}
+
+.gallerystyle .stadion{
+    cursor: pointer;
+    position: absolute;
+    opacity: 0;
+    -webkit-transition: all 0.45s ease-in-out;
+    -moz-transition: all 0.45s ease-in-out;
+    -o-transition: all 0.45s ease-in-out;
+    -ms-transition: all 0.45s ease-in-out;
+    transition: all 0.45s ease-in-out;
+}
+
+.gallerystyle{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
 
 
 

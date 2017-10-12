@@ -1,0 +1,35 @@
+
+
+stadionteststukje
+
+.gallerystyle .blur{
+    background-color: #999999
+    height: 300px;
+    width: 400px;
+    z-index: 5;
+    position: absolute;
+}
+
+.gallerystyle .stadion{
+    cursor: pointer;
+    position: absolute;
+    opacity: 0;
+    -webkit-transition: all 0.45s ease-in-out;
+    -moz-transition: all 0.45s ease-in-out;
+    -o-transition: all 0.45s ease-in-out;
+    -ms-transition: all 0.45s ease-in-out;
+    transition: all 0.45s ease-in-out;
+}
+
+.gallerystyle{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+ }
+ @font-face{
+    font-family: hf;
+    src: url( '../fonts/headfront.ttf');
