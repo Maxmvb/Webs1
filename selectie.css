@@ -4,10 +4,14 @@
   }
   
 .image {
-
-    display: block;
-    width: 200%;
+    padding: 38px;
+    position: relative;
+    left: -15%;
+    width: 209%;
     height: auto;
+    
+    
+
 }
   
 .overlay {
@@ -19,11 +23,13 @@
     overflow: hidden;
     width: 200%;
     height: 0;
-    transition: .5s ease;
+    transition: .9s ease;
 }
   
 .container:hover .overlay {
     height: 15%;
+   
+    
 
 }
   
