@@ -58,6 +58,20 @@ nav a:hover{
     color: #07173b;
 }
 
+@media screen and (min-width: 480px) {
+    ul {
+        flex-direction: row;
+        
+    }
+
+    nav > ul{
+        display: flex;
+    }
+
+    nav label{
+        display: none;
+    }
+
 .dropdown ul{
     list-style: none;
     padding:0px;
