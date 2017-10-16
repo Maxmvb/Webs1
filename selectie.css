@@ -3,13 +3,14 @@
     width: 50%;
   }
   
-  .image {
+.image {
+
     display: block;
     width: 200%;
     height: auto;
-  }
+}
   
-  .overlay {
+.overlay {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -19,13 +20,14 @@
     width: 200%;
     height: 0;
     transition: .5s ease;
-  }
+}
   
-  .container:hover .overlay {
+.container:hover .overlay {
     height: 15%;
-  }
+
+}
   
-  .text {
+.text {
     white-space: nowrap; 
     color: white;
     font-size: 20px;
@@ -35,4 +37,97 @@
     left: 50%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
-  }
+}
+
+body{
+    background-color: #FFFFFF
+    padding: 0;
+    margin:0;
+}
+
+h1,h2,h3{
+    margin: 0;
+}
+
+container{
+    background-color: white;
+    width: 800px;
+    margin-left: auto;
+    margin-right:auto;
+}
+
+header{
+    background-color: #07173b;
+    color:white;
+    display: flex;
+    align-items: flex-end;
+}
+
+header .homebutton{
+    display: flex;
+    height: 165px;
+    position: relative;
+    top: 33px;
+
+}
+
+header .titel{
+     
+}
+
+header .nav{
+    display: flex;
+}
+
+
+nav ul{
+    display: flex;
+    list-style: none;
+    padding: 0px;
+    width: 30px;
+    
+}
+
+nav a{
+    padding: 5px;
+    margin: 5px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+nav a:hover{
+    background-color: white;
+    color: #07173b;
+}
+
+.content{
+width: 100%;
+}
+
+.content h2{
+    text-align: center;
+    text-decoration: underline;
+
+}
+
+.content{
+    padding: 10px;
+}
+main{
+    background-color: white;
+    width: 600px;
+    float: right;
+}
+.footer{
+    clear: both;
+    padding: 10px;
+    background-color: #999999;
+    color: white;
+    text-align: right;
+
+}
+
+ @font-face{
+    font-family: hf;
+    src: url( '../fonts/headfront.ttf');
+ }

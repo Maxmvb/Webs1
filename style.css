@@ -61,6 +61,43 @@ nav a:hover{
     color: #07173b;
 }
 
+.dropdown ul{
+    list-style: none;
+    padding:0px;
+}
+
+.dropdown li{
+    display: inline-block;
+    padding:20px;
+    background-color:#eee;
+    position: relative;
+}
+
+
+.dropdown li:hover{
+    background-color:gray;
+    color:white;
+    cursor: pointer;
+}
+
+.dropdown ul ul {
+    display: none;
+    position: absolute;
+    top:100%;
+    width:100%;
+    left:0px;
+}
+
+.dropdown ul ul li {
+    width:100%;
+}
+
+.dropdown li:hover ul{
+    display: block;
+}
+
+
+
 
 
 
