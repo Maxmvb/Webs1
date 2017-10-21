@@ -29,11 +29,6 @@ header .homebutton{
 
 }
 
-header .titel{
-    
-    
-}
-
 header .nav{
     display: flex;
 }
@@ -42,8 +37,7 @@ nav ul{
     display: flex;
     list-style: none;
     padding: 0px;
-    width: 30px;
-    
+    width: 30px;   
 }
 
 nav a{
@@ -60,8 +54,7 @@ nav a:hover{
 
 @media screen and (min-width: 480px) {
     ul {
-        flex-direction: row;
-        
+        flex-direction: row;   
     }
 
     nav > ul{
@@ -100,14 +93,11 @@ nav a:hover{
 }
 
 .dropdown ul ul li {
-    width:100%;
-    
+    width:100%; 
 }
 
 .dropdown li:hover ul{
     display: block;
-    
-    
 }
 
 h2{
@@ -117,9 +107,7 @@ h2{
 .page .image{
     text-align: left;
     padding: 20px;
-    float: right;
-    
-    
+    float: right;  
  }
 
 .page .text{

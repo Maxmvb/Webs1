@@ -29,11 +29,6 @@ header .homebutton{
 
 }
 
-header .titel{
-    
-    
-}
-
 header .nav{
     display: flex;
 }
@@ -42,8 +37,7 @@ nav ul{
     display: flex;
     list-style: none;
     padding: 0px;
-    width: 30px;
-    
+    width: 30px;    
 }
 
 nav a{
@@ -87,18 +81,14 @@ nav a:hover{
 
 .dropdown ul ul li {
     width:100%;
-    
 }
 
 .dropdown li:hover ul{
-    display: block;
-    
-    
+    display: block;  
 }
 
 h2{
-    text-align: center;
-    
+    text-align: center;  
 }
 
 .movie{

@@ -7,6 +7,7 @@ body{
 h1,h2,h3{
     margin: 0;
 }
+
 container{
     background-color: white;
     width: 800px;
@@ -26,12 +27,6 @@ header .homebutton{
     height: 165px;
     position: relative;
     top: 33px;
-
-}
-
-header .titel{
-    
-    
 }
 
 header .nav{
@@ -42,8 +37,7 @@ nav ul{
     display: flex;
     list-style: none;
     padding: 0px;
-    width: 30px;
-    
+    width: 30px; 
 }
 
 nav a{
@@ -100,14 +94,11 @@ nav a:hover{
 }
 
 .dropdown ul ul li {
-    width:100%;
-    
+    width:100%; 
 }
 
 .dropdown li:hover ul{
     display: block;
-    
-    
 }
 
 h2{
@@ -124,7 +115,6 @@ h2{
     text-align: left;
     padding: 20px;
 }
-
 
 .footer{
     clear: both;
