@@ -13,7 +13,7 @@
 .gallerystyle img{
     padding: 10px;
     width: 100%;
-    display: block;
+    display: flex;
     transition: transform 1s;
     
 }
