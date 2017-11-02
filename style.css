@@ -4,6 +4,15 @@ body{
     margin:0;
 }
 
+.wrapper{
+    max-width: 1200px;
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    padding: 0 10px;
+}
+
 h1,h2,h3{
     margin: 0;
 }
@@ -26,12 +35,17 @@ header .homebutton{
     height: 165px;
     position: relative;
     top: 33px;
-
 }
 
 header .titel{
     
+float: left;
     
+padding-top: 50px;
+    
+/* padding-left: 50px; */
+    
+width: 100%;
 }
 
 header .nav{
@@ -43,12 +57,15 @@ nav ul{
     list-style: none;
     padding: 0px;
     width: 30px;
-    
 }
 
 nav a{
     padding: 5px;
     margin: 5px;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 0.3s ease-in-out;
     color: #FFFFFF;
     text-decoration: none;
 }
@@ -83,9 +100,13 @@ nav a:hover{
     padding: 5px;
     background-color: #07173b;
     position: relative;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 0.3s ease-in-out;
 }
 
-.dropdown li:hover{
+.dropdown ul li ul li:hover{
     background-color: white;
     color : #07173b;
     cursor: pointer;
@@ -112,14 +133,14 @@ nav a:hover{
 
 h2{
     text-align: center;
-    
+    WIDTH: 100%;
+    padding-bottom: 25px;
 }
 
 .page{
-    display: flex;
-    padding: 50px;
-    
-    
+    /* display: flex; */
+    /* padding: 50px; */
+    /* float: left; */
 }
 
 .page .image{
@@ -128,13 +149,12 @@ h2{
 
 
 .page .info{
-    border: 1px  black;
-    margin: 5px;
-    width: 33%;
-    height: 400px;
-    background-color: #FFFFFF
-
-
+    
+    */
+    float: left;
+    width: 100%;
+    /* height: 400px; */
+    float: left;
 }
 
 .page .info .text p{
@@ -153,14 +173,44 @@ h2{
 
 .footer{
     clear: both;
-    padding: 10px;
+    padding: 10px 0;
     background-color: #999999;
     color: white;
     text-align: right;
+    float: left;
+    width: 100%;
 }
 
  }
  @font-face{
     font-family: hf;
     src: url( '../fonts/headfront.ttf');
+}
+
+@media only screen and ( min-width: 981px ) and ( max-width: 1200px ) {
+    /* komt meestal niks */
+    .wrapper{
+        max-width: 981px;
+    }
+}
+
+@media only screen and (max-width: 980px) and (min-width: 768px) {
+    /* tablet */
+    .wrapper{
+        max-width: 768px;
+    }
+}
+
+@media only screen and ( min-width: 480px ) and ( max-width: 767px ) {
+    /* mobiel liggend */
+    .wrapper{
+        max-width: 480px;
+    }
+}
+
+@media only screen and ( min-width: 320px ) and ( max-width: 479px ) {
+/* mobiel normaal */
+    .wrapper{
+        max-width: 320px;
+    }
 }
